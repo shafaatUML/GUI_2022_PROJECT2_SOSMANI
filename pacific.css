@@ -1,0 +1,171 @@
+hgroup, nav, footer, figure, figcaption, aside, section, article {
+    display: block;
+}
+body {
+
+	display: flex;
+	justify-content: center;
+    background-image: url("ptrbackground.jpg");
+    list-style-image: url("marker.gif");
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-top: 50px;
+    margin-left:60px;
+    margin-right: 60px;
+    margin-bottom: 70px;
+
+}
+img [src^="ptrbackground.jpg"] {
+	object-fit: cover;
+}
+
+h1 {
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+header{
+    background-color: #1b1036;
+    color:white;
+    background-image: url("sunset.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+h2 {
+	float:center;
+}
+
+image {
+	display: inline-block;
+}
+
+hgroup, nav, footer, figure, figcaption, aside, section, article {
+    display: block;
+}
+/* entire page */
+body {
+    background-image: url("ptrbackground.jpg");
+    list-style-image: url("marker.gif");
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-top: 50px;
+    margin-left:60px;
+    margin-right: 60px;
+    margin-bottom: 70px;
+
+}
+
+#wrapper {
+    min-width: 1424px;
+    width: 50%;
+     max-width: 1000px;
+}
+
+
+
+
+
+#content {
+	padding-left:250px;
+    background-color: white;
+    border-top: solid white;
+}
+
+h2 {
+    color: #3399CC;
+}
+
+
+
+#content p, ul {
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	hyphens: auto;
+	max-width: 300px;
+	display: inline-block;
+	vertical-align:top;
+	padding-left:35px;
+}
+
+
+
+
+
+
+
+header{
+    background-color: #1b1036;
+    color:white;
+    background-image: url("sunset.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+
+
+
+.resort {
+    display: block; 
+    font-weight: bold;
+    color: #3399CC;
+}
+
+nav {
+    float: left;
+    width: 210px;
+    height:517px;
+
+
+    background-color: #3399CC;
+    
+}
+
+footer {
+
+    background-color: white;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style:italic; 
+    height:75px;
+	padding-left:250px;
+
+
+}
+
+/* NAV BAR */
+nav ul {
+    list-style: none; 
+    font-size: 1.2em;
+
+    height: auto;
+}
+
+nav a { 
+    text-decoration: none;
+    color: #152a56;
+    font-weight: bold;
+    
+}
+nav a:visited {
+    color: #152a56;
+}
+nav a:hover {
+    color: #FFFFFF;
+}
+h1 {
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+h1, h2 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+#contact {
+    font-size: 90%;
+}
+dt {
+    color: #000033;
+}
